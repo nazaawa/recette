@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_complete_guide/categorie_screens.dart';
-import 'package:flutter_complete_guide/category_meal_screens.dart';
+import 'package:flutter_complete_guide/screens/categorie_screens.dart';
+import 'package:flutter_complete_guide/screens/category_meal_screens.dart';
 
 void main() {
   runApp(MyApp());
