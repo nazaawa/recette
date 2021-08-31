@@ -4,7 +4,7 @@ import 'package:flutter_complete_guide/dummy_data.dart';
 
 
 class CategoryScreens extends StatelessWidget {
-  const CategoryScreens({Key key}) : super(key: key);
+
 
   @override
   Widget build(BuildContext context) {
