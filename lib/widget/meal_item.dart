@@ -11,12 +11,12 @@ class MealItem extends StatelessWidget {
   final Affordability affordability;
 
   const MealItem(
-      {@required this.name,
-      @required this.imageUrl,
-      @required this.duration,
-      @required this.complexity,
-      @required this.affordability,
-      @required this.id});
+      {required this.name,
+      required this.imageUrl,
+      required this.duration,
+      required this.complexity,
+      required this.affordability,
+      required this.id});
 
   String get complexityText {
     switch (complexity) {
@@ -24,10 +24,8 @@ class MealItem extends StatelessWidget {
         return 'Simple';
       case Complexity.Challenging:
         return 'Challenging';
-        break;
       case Complexity.Hard:
         return 'Hard';
-        break;
       default:
         return 'Iconnnue';
     }
@@ -37,13 +35,11 @@ class MealItem extends StatelessWidget {
     switch (affordability) {
       case Affordability.Affordable:
         return 'Affordable';
-        break;
+        
       case Affordability.Pricey:
         return 'Pricey';
-        break;
       case Affordability.Luxurious:
         return 'Luxurious';
-        break;
       default:
         return 'Inconnue';
     }
