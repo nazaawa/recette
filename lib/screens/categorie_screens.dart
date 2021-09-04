@@ -8,11 +8,7 @@ class CategoryScreens extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text("DeliMeal"),
-      ),
-      body: GridView.count(
+    return  GridView.count(
         padding:const EdgeInsets.all(25),
         crossAxisCount: 2,
         childAspectRatio: 3 / 2,
@@ -25,7 +21,7 @@ class CategoryScreens extends StatelessWidget {
                       color: cartdate.color, title: cartdate.title),
                 ))
             .toList(),
-      ),
-    );
+      );
+
   }
 }
